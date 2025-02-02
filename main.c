@@ -13,9 +13,7 @@
 #include <libmath.h>
 
 #include "textures.h"
-
 #include "types.h"
-#include "tims.h"
 #include "levels.h"
 #include "LUT.h"
 
@@ -101,6 +99,7 @@ int CheckOverlap(Vec4i r1, Vec4i r2){
 
 int main(void){
     init();
+	InitTextures();
 	
 	// Init gamepad.
 	int pad = 0;
