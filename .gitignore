@@ -1,6 +1,7 @@
 # Ignore thirdparty tools.
 /thirdparty/
 /res/aseprite/
+/res/old/
 
 # Ignore all non-tim texture files.
 *.png
